@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "DemoSDK"
 include ':app'
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('UnitySDK\\unityLibrary')
